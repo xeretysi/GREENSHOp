@@ -1,0 +1,133 @@
+/* Implementing Font Family - Cera PRO*/
+@font-face {
+    font-family: "Cera Pro";
+    src: url(/fonts/Fontspring-DEMO-cerapro-regular.otf);
+    font-style: normal;
+    font-weight: 400,500,600;
+}
+/* Using Globals */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    font-family: "Cera Pro", sans-serif;
+}
+label {
+    display: block;
+    font-size: 10px;
+    padding-bottom: 4px;
+}
+/* Global Container */
+.global_container {
+    max-width: 500px;
+    background-color: #fff;
+    margin: auto;
+    border-bottom: 10px solid #46A358; 
+    box-sizing: border-box;
+}
+/* Inner Container */
+.inner_container {
+    box-sizing: border-box;
+    padding: 38px 100px 50px 100px;
+}
+/* Close Window */
+.close_window {
+    text-align: right;
+    display: block;
+}
+/* Login-Register Block */ 
+.LR_Block {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.login {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    color: #3d3d3d;
+}
+.separator {
+    color: #3d3d3d;
+    font-size: 18px;
+    padding: 0 12px;
+}
+
+.register {
+    color: #46a358;
+}
+/* Invitation Text */
+.invitation_text {
+    color: #3d3d3d;
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    margin-top: 40px;
+    padding-bottom: 14px;
+}
+/* Form */
+.form_content {
+    width: 300px;
+    color: #a5a5a5;
+}
+.form_input_wrapper {
+    padding-bottom: 4px;
+}
+.f_input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-family: Cera Pro;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
+    height: 40px;
+}
+.terms {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+
+
+
+.form_button {
+    background-color: #46A358;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 14px 0;
+}
+/* Registration with... */
+.reg_with {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+    text-align: center;
+    margin-top: 36px;
+}
+.reg_wrapper {
+    margin-top: 27px;
+}
+.links_socials {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+    padding: 10px;
+}
+.p15 {
+    margin-bottom: 15px;
+}

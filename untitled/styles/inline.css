@@ -1,0 +1,133 @@
+/* ========== Implementing Font Family - Cera PRO ========== */
+@font-face {
+    font-family: "Cera Pro";
+    src: url(/fonts/Cera-Pro/Demo_Fonts/Fontspring-DEMO-cerapro-regular.otf);
+    src: url(/fonts/Cera-Pro/Demo_Fonts/Fontspring-DEMO-cerapro-black.otf);
+    src: url(/fonts/Cera-Pro/Demo_Fonts/Fontspring-DEMO-cerapro-medium.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+/* =========== Inline Block Styles ========== */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+}
+h1 > span {
+    color: #46A358;
+}
+.main_container {
+    background-color: #fff;
+    margin: auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+    padding: 30px 120px 52px 120px;    
+}
+/* ===== Header Styles ===== */
+.greenshop_header {
+    margin-bottom: 12px;
+    max-width: 1200px;
+    border-bottom: 0.3px solid rgb(70, 163, 88, 10%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 18px;
+}
+.btn_login {
+    background-color: #46A358;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 8px 17px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Cera Pro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.header_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header_menu > li {
+    display: inline;
+    font-family: Cera Pro;
+    padding-right: 50px;
+}
+.header_menu > li > a {
+    color: #3d3d3d;
+}
+.header_menu > li > a:hover {
+    border-bottom: 3px solid #46A358;
+    padding-bottom: 36px;
+}
+/* ===== Banner Styles ===== */
+.greenshop_main_banner {
+    background-color: #f5f5f5;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+.offer_wrapper {
+    padding: 68px 93px 85px 43px;
+}
+.banner__offer_head {
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-size: 14px;
+    font-family: Cera Pro;
+    display: inline;
+    margin-bottom: 7px;
+}
+.offer_heading {
+    font-family: Cera Pro;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.banner__offer_footer {
+    font-family: Cera Pro;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 44px;
+}
+.CTA {
+    background-color: #46A358;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 26px;
+    font-family: Cera Pro;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+}
+.banner_flower_container {
+    height: 450px;
+}
+.big_flower {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.small_flower {
+    position: absolute;
+    top: 393px;
+    left: 868px;
+}
